@@ -14,7 +14,7 @@
   
 # API Reference
 
-- We will create a Employee REST API, following are the rest endpoints
+- We will create a Employee REST API, following are the rest endpoints.
 
 - # Get all employees
 
