@@ -47,7 +47,7 @@ public class EmployeeController {
 		return this.employeeDAO.update(employee, id) + " No. of rows updated to the database";
 	}
 
-	@DeleteMapping(value = "/{id}")
+	@DeleteMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseStatus(code = HttpStatus.NO_CONTENT)
 	public String deleteEmployeeById(@PathVariable int id) {
 		return this.employeeDAO.delete(id) + " No. of rows deleted from the database";
